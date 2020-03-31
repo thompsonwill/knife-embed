@@ -17,9 +17,9 @@
            assetId: "9133b491-af30-434e-898d-997556592c31",       
            showConfigurator: true,
          })
-         .then(async ap => {
-            window.player = ap;
-            window.configurator = await ap.getConfigurator();
+         .then(async api => {
+            window.player = api;
+            window.configurator = await api.getConfigurator();
      });         
    </script>
 </body>
