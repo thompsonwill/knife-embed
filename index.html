@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="./js/config.js/"></script>
     <script src="https://preview.threekit.com/app/js/threekit-player.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +13,7 @@
     <script>
         window
          .threekitPlayer({
-           authToken: "370bddab-b17c-4f41-a843-46b573107c49",
+           authToken: config.token,
            el: document.getElementById("player"),
            assetId: "9133b491-af30-434e-898d-997556592c31",       
            showConfigurator: true,
