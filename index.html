@@ -8,7 +8,7 @@
     <title>Threekit Player</title>
 </head>
 <body>
-    <div id="player" style="height: 600px; width: 600px;"></div>
+    <div id="player" style="height: 600px; width: 800px;"></div>
     <script>
         window
          .threekitPlayer({
@@ -20,7 +20,6 @@
          .then(async ap => {
             window.player = ap;
             window.configurator = await ap.getConfigurator();
-         
      });         
    </script>
 </body>
